@@ -1,0 +1,242 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    width: 1519px;
+    height: 3000px;
+    /* background: skyblue url(./个人页面图片.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover; 整个页面都是此背景*/
+}
+li, ol, ul, a, button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.25;
+    color:#0055ff;
+    text-decoration:none;
+}
+#div01{
+    position: relative;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+#div1{
+    position: relative;
+    width:440px;
+    height:64px;
+    /* top:50px; */
+    background:skyblue no-repeat center center;
+}
+#div2{
+    position: relative;
+    width:440px;
+    height:64px;
+    left: 600px;
+    /* top:50px; */
+    background:skyblue no-repeat center center;
+}
+#divexam{
+    display:flex;
+    position:relative;
+    max-width: 1451px;
+    /* max-width: 1478px; */
+    width: 100%;
+    height:200px;
+}
+#div02{
+    position: relative;
+    margin-right: 10px;
+    width:200px;
+    height:200px;
+    left: 50px;
+    /* top:50px; */
+    text-align: center;
+    line-height: 200px;
+    background:greenyellow no-repeat center center;
+    transition: width 2s;
+}
+#divcontent{
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* margin-right: 10px; */
+    margin: -28px;
+    width:200px; height:200px;
+    text-align: center;
+    line-height: 200px;
+    background:grey no-repeat center center;
+    transition:top .5s linear,width 2s,height 2s;
+    z-index: -1;
+}
+#div02:hover{
+    width:400px;
+    z-index: 1;
+}
+#div02:hover #divcontent{
+    width: 400px;
+    height: 300px;
+    top: 200px;
+}
+#divbody00{
+    /* position: fixed; */
+    background: skyblue url(./background.jpg) no-repeat fixed center center;
+    background-size: cover;
+    width: 1519px;
+    height: 713px;
+}
+#div03{
+    position: fixed;
+    left: 5px;
+    height: 580px;
+    width: 40px;
+    background: #ffffff no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 5;
+}
+#kindsnv{
+    position: relative;
+    top: 5px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius:5px;
+    background: #ffffff no-repeat center center;
+}
+#kindsnv:hover{
+    background: #555555 no-repeat center center;
+    /* filter : brightness(1.1); */
+}
+#dbody{
+    width: 1519px;
+    height: 649px;
+    display: flex;
+}
+#mainbody{
+    position: relative;
+    top: 20px;
+    /* top: 74px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#divspan{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+#span01{
+    position: relative;
+    left: 60px;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background:blue no-repeat center center ;
+    font-size: 32px;
+    color: #dfdfdf;
+    font-weight: normal;
+    font-style: normal;
+}
+#span02{
+    position: relative;
+    top: 30px;
+    left:1050px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background:blue no-repeat center center ;
+    font-size: 10px;
+    color: #dfdfdf;
+    font-weight: normal;
+    font-style: normal;
+}
+#box1{
+    position: relative;
+    left:10px;
+    margin-left: 20px;
+    width: 100%;;
+    height:64px;
+    background:yellow no-repeat center center;
+    display: flex;
+    align-items: center;
+    /* margin-right: 0px; */
+}
+#box2{
+    position: relative;
+    margin-left: 10px;
+    width:50px;
+    height:64px;
+    background: red no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 0px; */
+}
+#box3{
+    position: relative;
+    margin-left: 10px;
+    width:75px;
+    height:64px;
+    background: red no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 0px; */
+}
+#btn01{
+    width: 30px;
+    height: 30px;
+    background-color: #6eff;
+    position:fixed;
+    bottom: 100px;
+    right: 100px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #000000;
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.25;
+    color:#000000;
+    text-decoration:none;
+    z-index: 5;
+}
+#btn02{
+    position: absolute;
+    width:120px; height:64px;
+    background: red no-repeat fixed center center;
+    text-align: center;
+    border: 0 skyblue solid;
+    left: 220px;
+    top: 0;
+    z-index:10;
+    /* margin-right: 0px; */
+}
+#box0{
+    width:120px; height:64px;
+    border:1px skyblue solid;
+    text-align: center;
+    position: absolute;
+    left: 220px;
+    top: 0;
+    z-index:5;
+    transition:top .5s linear;
+}
+#btn02:hover~#box0{
+    /* .box0.box{ */
+    top:64px;
+}
